@@ -1,0 +1,25 @@
+separator=false
+separator_block_width=5
+
+[Media]
+command=./media.sh
+interval=5
+
+[Wifi]
+command=./wifi.sh
+interval=10
+
+[Battery]
+command=./battery.sh
+interval=10
+
+[volume]
+command=./volume.sh
+signal=10
+interval=once
+
+[Date_Time]
+command=echo " $(date "+%b %d %H:%M") "
+interval=5
+color=#efefef
+
